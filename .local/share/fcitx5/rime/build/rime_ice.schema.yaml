@@ -1,7 +1,7 @@
 __build_info:
   rime_version: 1.9.0
   timestamps:
-    default: 1705147139
+    default: 1705147871
     default.custom: 0
     rime_ice.custom: 0
     rime_ice.schema: 1705147139
@@ -97,7 +97,7 @@ melt_eng:
   enable_user_dict: false
   initial_quality: 1.1
 menu:
-  page_size: 5
+  page_size: 7
 punctuator:
   full_shape:
     " ": {commit: "　"}
