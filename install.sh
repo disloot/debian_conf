@@ -1,5 +1,5 @@
 #!/bin/bash
-#sh -c "$(crul -fsSL )"
+#sh -c "$(crul -fsSL https://raw.githubusercontent.com/disloot/debian_conf/main/install.sh)"
 #安装git
 sudo apt install git curl
 
