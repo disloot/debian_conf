@@ -1,5 +1,5 @@
 #!/bin/bash
-#sh -c "$(crul -fsSL https://raw.githubusercontent.com/disloot/debian_conf/main/install.sh)"
+#sh -c "$(curl -fsSL https://raw.githubusercontent.com/disloot/debian_conf/main/install.sh)"
 #安装git
 sudo apt install git curl
 
@@ -18,5 +18,4 @@ curl -O -L https://raw.githubusercontent.com/disloot/debian_conf/main/.zshrc
 sudo apt install zsh zsh-syntax-highlighting zsh-autosuggestions autojump
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-#删除install
-#rm ./install.sh
+
