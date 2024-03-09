@@ -1,4 +1,5 @@
-#!/bin/zsh
+#!/bin/bash
+#sh -c "$(crul -fsSL )"
 #安装git
 sudo apt install git curl
 
@@ -8,13 +9,14 @@ mkdir -p ~/.local/bin
 ln -s /usr/bin/batcat ~/.local/bin/bat
 ln -s $(which fdfind) ~/.local/bin/fd    
 
+
+
+#下载 .zshrc
+curl -O -L https://raw.githubusercontent.com/disloot/debian_conf/main/.zshrc
+
 # 安装zsh oh-my-zsh 
 sudo apt install zsh zsh-syntax-highlighting zsh-autosuggestions autojump
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-#下载 .zshrc
-cd ~
-curl -O -L https://raw.githubusercontent.com/disloot/debian_conf/main/.zshrc
-source ~/.zshrc
-
-
+#删除install
+#rm ./install.sh
