@@ -1,6 +1,6 @@
 #!/bin/bash
 #安装git
-sudo apt install git
+sudo apt install git curl
 
 # 安装zsh oh-my-zsh 
 sudo apt install zsh zsh-syntax-highlighting zsh-autosuggestions autojump
