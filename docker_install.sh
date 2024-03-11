@@ -6,15 +6,15 @@ apt install -y git curl
 
 #安装fzf fd ripgrep bat
 apt install -y fzf fd-find ripgrep bat zsh
-mkdir -p root/.local/bin
-ln -s /usr/bin/batcat root/.local/bin/bat
-ln -s $(which fdfind) root/.local/bin/fd    
+mkdir -p ~/.local/bin
+ln -s /usr/bin/batcat ~/.local/bin/bat
+ln -s $(which fdfind) ~/.local/bin/fd    
 
 
 
 #下载 .zshrc
 cd ~
-curl -fsSL https://raw.githubusercontent.com/disloot/debian_conf/main/.zshrc > /root/.zshrc
+curl -o ~/.zshrc https://raw.githubusercontent.com/disloot/debian_conf/main/.zshrc
 
 # 安装zsh oh-my-zsh 
 apt install -y zsh zsh-syntax-highlighting zsh-autosuggestions autojump
