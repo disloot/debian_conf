@@ -19,4 +19,6 @@ curl -O https://raw.githubusercontent.com/disloot/debian_conf/main/.zshrc
 # 安装zsh oh-my-zsh 
 apt install -y zsh zsh-syntax-highlighting zsh-autosuggestions autojump
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+zsh 
+
 
