@@ -14,8 +14,7 @@ ln -s $(which fdfind) root/.local/bin/fd
 
 #下载 .zshrc
 cd ~
-curl -O https://raw.githubusercontent.com/disloot/debian_conf/main/.zshrc
-cp .zshrc root/.zshrc
+curl -fsSL https://raw.githubusercontent.com/disloot/debian_conf/main/.zshrc > /root/.zshrc
 
 # 安装zsh oh-my-zsh 
 apt install -y zsh zsh-syntax-highlighting zsh-autosuggestions autojump
