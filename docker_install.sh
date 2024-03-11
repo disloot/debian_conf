@@ -1,10 +1,10 @@
 #!/bin/bash
-#sh -c "$(curl -fsSL https://raw.githubusercontent.com/disloot/debian_conf/main/install.sh)"
+#sh -c "$(curl -fsSL https://raw.githubusercontent.com/disloot/debian_conf/main/docker_install.sh)"
 #安装git
 apt install git curl
 
 #安装fzf fd ripgrep bat
-apt install fzf fd-find ripgrep bat
+apt install fzf fd-find ripgrep bat zsh
 mkdir -p ~/.local/bin
 ln -s /usr/bin/batcat ~/.local/bin/bat
 ln -s $(which fdfind) ~/.local/bin/fd    
