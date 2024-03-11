@@ -1,6 +1,7 @@
 #!/bin/bash
 #sh -c "$(curl -fsSL https://raw.githubusercontent.com/disloot/debian_conf/main/docker_install.sh)"
 #安装git
+apt update
 apt install git curl
 
 #安装fzf fd ripgrep bat
