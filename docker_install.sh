@@ -13,7 +13,7 @@ ln -s $(which fdfind) ~/.local/bin/fd
 
 
 #下载 .zshrc
-curl -O -L https://raw.githubusercontent.com/disloot/debian_conf/main/.zshrc
+curl -O -L https://raw.githubusercontent.com/disloot/debian_conf/main/.zshrc ~/.zshrc
 
 # 安装zsh oh-my-zsh 
 apt install -y zsh zsh-syntax-highlighting zsh-autosuggestions autojump
