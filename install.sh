@@ -3,7 +3,8 @@
 #安装git
 sudo apt update
 sudo apt install git curl
-git config --global user.email "ly1564994969@outlook.com" && git config --global user.name "ly"
+git config --global user.email "ly1564994969@outlook.com" 
+git config --global user.name "ly"
 
 #安装fzf fd ripgrep bat
 sudo apt install fzf fd-find ripgrep bat
