@@ -1,5 +1,5 @@
 #!/bin/bash
-#sh -c "$(curl -fsSL https://raw.githubusercontent.com/disloot/debian_conf/main/install.sh)"
+#sh -c "$(curl -fsSL https://https://raw.githubusercontent.com/disloot/debian_conf/main/install.sh)"
 #安装git
 sudo apt update
 sudo apt install git curl
