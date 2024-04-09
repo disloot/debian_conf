@@ -14,13 +14,15 @@ ln -s $(which fdfind) ~/.local/bin/fd
 
 
 
-#下载 .zshrc
-cd ~
-curl -o ~/.zshrc https://raw.githubusercontent.com/disloot/debian_conf/main/.zshrc
+
 
 # 安装zsh oh-my-zsh 
 sudo apt install zsh zsh-syntax-highlighting zsh-autosuggestions autojump
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+#下载 .zshrc
+cd ~
+curl -o ~/.zshrc https://raw.githubusercontent.com/disloot/debian_conf/main/.zshrc
 
 #安装 neovim lazy-vim
 sudo add-apt-repository ppa:neovim-ppa/unstable
