@@ -25,7 +25,7 @@ cd ~
 curl -o ~/.zshrc https://raw.githubusercontent.com/disloot/debian_conf/main/.zshrc
 
 #安装 neovim lazy-vim
-sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo add-apt-repository -y ppa:neovim-ppa/unstable
 sudo apt update
 sudo apt install -y neovim
 
